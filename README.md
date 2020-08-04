@@ -19,9 +19,12 @@ To activate the blog page server, run the following command:
 ```shell
 python manage.py runserver
 ```
-Now you can access the blog page by visiting http://localhost:8000/django_project/ in your web browser. The home page displays all of the projects. The blog page of the site
-should display something like this:
+Now you can access the blog page by visiting http://localhost:8000/django_project/ in your web browser. The home page displays all of the projects. The blog page containing 
+posts of the site should display something like this:
 ![blog-page-photo](https://github.com/anhnguyenphung/django-portfolio/blob/master/images/blog_page.png)
+
+You can also click on a post to make comments:
+![comment-page-photo](https://github.com/anhnguyenphung/django-portfolio/blob/master/images/comment_page.png)
 
 ## Make Changes to Projects in Blog Page
 To make changes to projects in the page, you access the Django shell with the following command:
