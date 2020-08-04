@@ -1,4 +1,5 @@
 # A Simple Blog Page Built From Django Framework
+![project-page-photo](https://github.com/anhnguyenphung/django-portfolio/blob/master/images/project_page.png)
 ---
 
 ## Introduction
@@ -14,11 +15,13 @@ Then move to the directory that you just have downloaded by opening the Command 
 ```shell
 cd django-portfolio
 ```
-To activate the blog page server, you can run the following command:
+To activate the blog page server, run the following command:
 ```shell
 python manage.py runserver
 ```
-Now you can access the blog page by visiting http://localhost:8000/django_project/ in your web browser. 
+Now you can access the blog page by visiting http://localhost:8000/django_project/ in your web browser. The home page displays all of the projects. The blog page of the site
+should display something like this:
+![blog-page-photo](https://github.com/anhnguyenphung/django-portfolio/blob/master/images/blog_page.png)
 
 ## Make Changes to Projects in Blog Page
 To make changes to projects in the page, you access the Django shell with the following command:
@@ -66,11 +69,13 @@ When you first log in to the Django admin site, in the Home page, you can view a
 **AUTHENTICATION AND AUTHORIZATION**. To add, modify, or delete posts, you can clicking **Posts** in **DJANGO_BLOG**. When editing your post, you can even add the category
 to distinguish your posts.
 
+![admin-page-photo](https://github.com/anhnguyenphung/django-portfolio/blob/master/images/admin_page.png)
+
 Remember that when you delete a post, all of the comments associated with that post will be dissapeared.
 
 ## Conclusion
 Thanks to this [Django tutorial](https://realpython.com/get-started-with-django-1/), I could successfully finish this blog page. With this project, I have learned how to build
-Django framework:
+a website with Django framework:
 * Add web pages with views and templates.
 * Get user input with forms.
 * Hook views and templates up with URL configurations.
